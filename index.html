@@ -9,6 +9,8 @@
 	<meta name="description" content="Material based on original material by Kim Moir, Daniel Fischer, Aurelia Moser, Carina C. Zona and Izzy Johnston.
 
 		The course is meant to be taught in a two-hour workshop. Each of the slides and practice files are customizable according to the needs of a given class or audience.">
+	<meta name="description" content="Originally uses Hakim El Hattab's reveal.js">
+	<meta name="description" content="Forked from Girl Develop It framework">
 
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -481,7 +483,7 @@ $ git merge master
 			<section>
 				<h3>GitHub</h3>
 				<h4><a href="https://help.github.com/articles/create-a-repo/">Create your first repository</a></h4>
-				<img src="images/new-repo-screen-gdibtv.png" alt="" />
+				<img src="images/new-repo-screen-ulan.png" alt="" />
 				<aside class="notes">Recommend that they name this the same as their local repo</aside>
 			</section>
 
@@ -562,10 +564,9 @@ $ git push origin master
 			</section>
 			<section>
 				<h3>Forking</h3>
-				<img src="images/fork-gdi.png" alt="How to fork a repository." />
 				<p>After you fork the repository, it shows up in your repositories.</p>
-				<img src="images/fork-gdi-btv.png" alt="A forked repository." />
-				<p>Let's Try It! <a href="https://github.com/GDIBTV/git-resources">Fork this repo.</a></p>
+				<img src="images/fork-ulan-colorpage-btv.png" alt="A forked repository." />
+				<p>Let's Try It! <a href="https://github.com/urakymzhan/colors_page">Fork this repo.</a></p>
 				<p><small>You can only fork repos through the GitHub website.</small></p>
 			</section>
 			<section>
@@ -574,18 +575,18 @@ $ git push origin master
 				<pre><code class ="command-line">
 $ cd ../
 
-$ git clone https://github.com/USERNAME/git-resources.git
+$ git clone https://github.com/USERNAME/colors_page.git
 
-$ cd git-resources
+$ cd colors_page
 $ git remote -v
 				</code></pre>
 			</section>
 			<section>
-				<h3>Girl Developer <br>and the Three Repositories</h3>
+				<h3>Three Repositories</h3>
 				<div class="fragment">
 					There are now THREE copies of this repo that you have access to.
 				</div>
-				<img src="images/three_kittens.jpg" class="fragment" style="max-height:200px;">
+				<img src="images/threedogs.jpg" class="fragment" style="max-height:200px;">
 				<br>
 				<div class="fragment">
 					the original (on Github)* => <span class="green">upstream</span>
@@ -603,7 +604,7 @@ $ git remote -v
 				<p>To sync your fork with the original repo, you need to add another remote named <code>upstream</code></p>
 				<pre style="width: 100%;"><code>
 $ git remote -v
-$ git remote add upstream https://github.com/GDIBTV/git-resources.git
+$ git remote add upstream https://github.com/urakymzhan/colors_page.git
 $ git fetch upstream
 				</code></pre>
 				<p><code class="green">git fetch</code> downloads Git references not present in your local repository, but does not modify your files (think of it like getting a table of contents rather than the contents themselves)</p>
@@ -637,7 +638,7 @@ $ git fetch upstream
 			<section>
 				<h2>Let's Try It!</h2>
 				<ul>
-					<li>Make changes to the <code>git-resources</code> repository and push to your remote.</li>
+					<li>Make changes to the <code>colors_page</code> repository and push to your remote.</li>
 					<li>Submit a pull request to the original repository.</li>
 					<li>Explore other repos on GitHub and get excited about the world that is now open to you!</li>
 				</ul>
@@ -646,10 +647,6 @@ $ git fetch upstream
 			<!-- The End -->
 			<section>
 				<h2>Thank You!</h2>
-
-				<p>Keep in touch!</p>
-				<p><a href="mailto:rachaela@girldevelopit.com">rachaela@girldevelopit.com</a></p>
-				<p><a href="http://www.raearnold.com/">raearnold.com</a></p>
 			</section>
 		</div>
 	</div>
